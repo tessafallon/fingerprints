@@ -1,4 +1,7 @@
 FingerprintManagement::Application.routes.draw do
+
+  resources :fingerprints
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
